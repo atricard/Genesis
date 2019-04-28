@@ -1,0 +1,75 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      
+      {
+   "rolls": 1,
+   "entries": [
+  
+          {
+   "type": "minecraft:alternatives",
+   "children": [
+   
+          {
+   "type": "minecraft:item",
+   "conditions": [
+                  
+          {
+   "condition": "minecraft:match_tool",
+   "predicate": {
+   "enchantments": [
+                        
+          {
+   "enchantment": "minecraft:silk_touch",
+   "levels": {
+   "min": 1
+   }
+   }
+   ]
+   }
+   }
+   ],
+   "name": "minecraft:cobblestone"
+   
+       },
+  
+       {
+   "type": "minecraft:alternatives",
+   "conditions": [
+   
+          {
+   "condition": "minecraft:survives_explosion"
+   }
+   ],
+   "children": [
+   
+          {
+   "type": "minecraft:item",
+   "conditions": [
+   
+          {
+   "condition": "minecraft:match_tool",
+   "predicate": {
+   "enchantments": [
+                        
+          {
+   "enchantment": "minecraft:flame",
+   "levels": {
+   "min": 1
+   }
+   }
+   ]
+   }
+   }
+   ],
+   "name": "minecraft:stone"
+   
+       },
+       {
+   "type": "minecraft:item",
+   "name": "cobblestone"
+   }
+   ]
+   } ] } ] }
+   ]
+  }

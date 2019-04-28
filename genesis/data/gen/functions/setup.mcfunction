@@ -1,0 +1,23 @@
+scoreboard objectives add breakLeaves minecraft.mined:minecraft.oak_leaves
+scoreboard objectives add forgeProgress dummy
+scoreboard objectives add forgeTank dummy
+scoreboard objectives add meltSuccess dummy
+scoreboard objectives add meltTime dummy
+bossbar add forgeprogress {"text":"Foundry Progress"}
+bossbar set minecraft:forgeprogress max 600
+bossbar set minecraft:forgeprogress players @a
+bossbar set minecraft:forgeprogress color white
+bossbar add tank {"text":"Foundry Storage"}
+bossbar set minecraft:tank max 7
+bossbar set minecraft:tank players @a
+bossbar set minecraft:tank color red
+bossbar add melt {"text":"Crucible Progress"}
+bossbar set minecraft:melt max 10000
+bossbar set minecraft:melt players @a
+bossbar set minecraft:melt color red
+scoreboard objectives add mineTime dummy
+#Advancements
+scoreboard objectives add breakOakLog minecraft.mined:minecraft.oak_log
+scoreboard objectives add craftWHoe minecraft.crafted:minecraft.wooden_hoe
+scoreboard objectives add craftSieve minecraft.crafted:minecraft.scaffolding
+scoreboard objectives add craftCobble minecraft.crafted:minecraft.cobblestone

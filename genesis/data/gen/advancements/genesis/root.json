@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Genesis",
+            "color": "dark_green",
+            "bold": true
+        },
+        "description": {
+            "text": "Welcome to Genesis!"
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

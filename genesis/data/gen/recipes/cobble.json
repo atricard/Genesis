@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stone_button"
+        },
+        {
+            "item": "minecraft:stone_button"
+        },
+        {
+            "item": "minecraft:stone_button"
+        },
+        {
+            "item": "minecraft:stone_button"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cobblestone",
+        "count": 1
+    }
+}
